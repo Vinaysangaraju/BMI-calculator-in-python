@@ -1,5 +1,5 @@
 n = input("Enter your weight system (lbs or kgs): ").lower()
-n1 = float(input("Enter your weight: ")).lower()
+n1 = float(input("Enter your weight: "))
 
 if n == "lbs":
     n_kg = n1 * 0.453592
