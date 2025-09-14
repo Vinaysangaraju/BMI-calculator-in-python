@@ -23,8 +23,4 @@ else:
 bmi = n_kg / (h_meter ** 2)
 
 print("Your BMI is:", round(bmi, 2))
-print("Category:",
-      "underweight" if bmi < 18.5 else
-      "normal" if bmi <= 24.9 else
-      "overweight" if bmi <= 29.9 else
-      "obese")
+print("underweight" if bmi < 18.5 else"normal" if bmi <= 24.9 else"overweight" if bmi <= 29.9 else"obese")
